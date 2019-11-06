@@ -7,7 +7,7 @@
 	{
 		margin: 0px;
 		padding: 0px;
-		background: #8C16C3 url(images/img01.jpg);
+		background: url(images/img01.jpg);
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 12pt;
 		font-weight: 400;
@@ -199,6 +199,19 @@
 		margin: 0 auto;
 		width: auto;
 	}
+
+	.image-cropper {
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+		}
+	.profile-pic {
+		display: inline;
+		margin: 0 auto;
+		margin-left: -25%; 
+		height: 100%;
+		width: auto;
+		}
 
 /*********************************************************************************/
 /* List Styles                                                                   */
@@ -638,21 +651,6 @@
 		color: rgba(255,255,255,1) !important;
 	}
 
-
-	#three-column .image-cropper {
-	width: 100px;
-	height: 100px;
-	position: relative;
-	overflow: hidden;
-	border-radius: 50%;
-	}
-	#three-column .profile-pic {
-	display: inline;
-	margin: 0 auto;
-	margin-left: -25%; //centers the image
-	height: 100%;
-	width: auto;
-	}
 
 	/* #three-column .avatar {
 		position: relative;
