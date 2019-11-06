@@ -639,11 +639,13 @@
 	}
 
 	#three-column .avatar {
-		border-radius: 100%;
-		display: inline-block;
-		margin: 0 0 2em 0;
+		position: relative;
+		width: 150px;
+		height: 150px;
+		border-radius: 100px;
+		border: 6px solid #67128F;
 		padding: 0.5em;
-		border: #FFF;
+		color: #FFF;
 		background-color: none;
 	}
 
