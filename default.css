@@ -400,6 +400,7 @@
 		color: #FFF;
 		position: fixed;
 		top: 0;
+		width: 100%;
 	}
 	
 	#menu li:hover a, #menu li.active a, #menu li.active span
