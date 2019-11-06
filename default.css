@@ -7,7 +7,7 @@
 	{
 		margin: 0px;
 		padding: 0px;
-		background: #8C16C3 url(images/img01.jpg) repeat;
+		background: #8C16C3 url(images/img01.jpg);
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 12pt;
 		font-weight: 400;
@@ -389,7 +389,7 @@
 	#menu li a, #menu li span
 	{
 		display: inline-block;
-		margin-left: 0.50em;
+		/*margin-left: 0.50em;*/
 		padding: 1em 1.5em;
 		letter-spacing: 0.20em;
 		text-decoration: none;
@@ -398,6 +398,8 @@
 		text-transform: uppercase;
 		outline: 0;
 		color: #FFF;
+		position: fixed;
+		top: 0;
 	}
 	
 	#menu li:hover a, #menu li.active a, #menu li.active span
