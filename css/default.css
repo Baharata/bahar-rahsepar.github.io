@@ -638,7 +638,23 @@
 		color: rgba(255,255,255,1) !important;
 	}
 
-	#three-column .avatar {
+
+	#three-column .image-cropper {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 50%;
+	}
+	.profile-pic {
+	display: inline;
+	margin: 0 auto;
+	margin-left: -25%; //centers the image
+	height: 100%;
+	width: auto;
+	}
+
+	/* #three-column .avatar {
 		position: relative;
 		width: 150px;
 		height: 150px;
@@ -654,7 +670,7 @@
 			display: block;
 			width: 150px;
 			height: 150px;
-		}
+		} */
 
 	#three-column .icon
 	{
