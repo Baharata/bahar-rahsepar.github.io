@@ -652,7 +652,8 @@
 		#three-column .avatar img {
 			border-radius: 100%;
 			display: block;
-			width: 10em;
+			width: 150px;
+			height: 150px;
 		}
 
 	#three-column .icon
