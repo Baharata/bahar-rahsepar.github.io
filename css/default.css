@@ -637,7 +637,22 @@
 		font-weight: 700;
 		color: rgba(255,255,255,1) !important;
 	}
-	
+
+	#three-column .avatar {
+		border-radius: 100%;
+		display: inline-block;
+		margin: 0 0 2em 0;
+		padding: 0.5em;
+		border: #FFF;
+		background-color: none;
+	}
+
+		#three-column .avatar img {
+			border-radius: 100%;
+			display: block;
+			width: 10em;
+		}
+
 	#three-column .icon
 	{
 		position: relative;
